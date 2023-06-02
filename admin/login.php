@@ -52,8 +52,8 @@ header("location:index.php?page=sarasas");
   							<input type="text" id="email" name="email" class="form-control form-control-sm">
   						</div>
   						<div class="form-group">
-  							<label for="password" class="control-label text-dark">Slaptažodis</label>
-  							<input type="password" id="password" name="password" class="form-control form-control-sm">
+  							<label for="slaptazodis" class="control-label text-dark">Slaptažodis</label>
+  							<input type="slaptazodis" id="slaptazodis" name="slaptazodiss="form-control form-control-sm">
   						</div>
   						<center><button class="btn-sm btn-block btn-wave col-md-4 btn-primary">Prisijungti</button></center>
   					</form>
