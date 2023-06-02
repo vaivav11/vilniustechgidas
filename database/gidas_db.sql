@@ -27,18 +27,6 @@ SET time_zone = "+00:00";
 -- Table structure for table `cart`
 --
 
-CREATE TABLE `cart` (
-  `id` int(30) NOT NULL,
-  `user_id` int(30) NOT NULL,
-  `product_id` int(30) NOT NULL,
-  `colour_id` int(30) NOT NULL,
-  `size_id` int(30) NOT NULL,
-  `qty` int(30) NOT NULL,
-  `price` float NOT NULL,
-  `ip_address` varchar(100) NOT NULL,
-  `date_created` datetime NOT NULL DEFAULT current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
 --
 -- Dumping data for table `cart`
 --
@@ -52,11 +40,10 @@ INSERT INTO `cart` (`id`, `user_id`, `product_id`, `colour_id`, `size_id`, `qty`
 -- Table structure for table `categories`
 --
 
-CREATE TABLE `categories` (
+CREATE TABLE `uzimtumas` (
   `id` int(30) NOT NULL,
-  `name` varchar(200) NOT NULL,
-  `description` text NOT NULL,
-  `date_created` datetime NOT NULL
+  `laikas` varchar(200) NOT NULL,
+  `vieta` text NOT NULL,
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
