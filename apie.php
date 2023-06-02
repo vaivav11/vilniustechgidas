@@ -39,18 +39,7 @@
                             <!-- <a href="#" class="theme-btn btn-style-one">Contact Us</a> -->
                         </div>
                     </div>
-                </div>
-
-                <!-- Image Column -->
-                <div class="image-column col-lg-6 col-md-12 col-sm-12">
-                    <div class="inner-column wow fadeInLeft">
-                      <div class="author-desc">
-                      </div>
-                        <figure class="image-1"><a href="#" class="lightbox-image" data-fancybox="images"><img title="Rahul Kumar Yadav" src="assets/img/VILNIUSTECH.jpg" alt=""></a></figure>
-                     
-                    </div>
-                </div>
-              
+                </div>            
             </div>
         </div>
     </section>
@@ -60,9 +49,6 @@
   <footer class="main-footer">
     <strong>&copy; 2023  Vilnius Tech. </strong>
     
-<!--     <div class="float-right d-none d-sm-inline-block">
-      <b>Online Jewelry Shop</b>
-    </div> -->
   </footer>
 </div>
 <!-- ./wrapper -->
