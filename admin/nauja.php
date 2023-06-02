@@ -8,7 +8,7 @@
 					<div class="col-md-6">
 						<div class="form-group">
 							<label for="" class="control-label">Laikas</label>
-							<input type="text" class="form-control form-control-sm" name="name" value="<?php echo isset($name) ? $name : '' ?>">
+							<input type="text" class="form-control form-control-sm" name="laikas" value="<?php echo isset($laikas) ? $laikas : '' ?>">
 						</div>
 					</div>
 				</div>
@@ -16,8 +16,8 @@
 					<div class="col-md-10">
 						<div class="form-group">
 							<label for="" class="control-label">Vieta</label>
-							<textarea name="description" id="" cols="30" rows="10" class="summernote form-control">
-								<?php echo isset($description) ? $description : '' ?>
+							<textarea name="vieta" id="" cols="30" rows="10" class="summernote form-control">
+								<?php echo isset($vieta) ? $vieta : '' ?>
 							</textarea>
 						</div>
 					</div>
