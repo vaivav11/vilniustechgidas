@@ -29,12 +29,12 @@
 					while($row= $qry->fetch_assoc()):
 						$trans = get_html_translation_table(HTML_ENTITIES,ENT_QUOTES);
 						unset($trans["\""], $trans["<"], $trans[">"], $trans["<h2"]);
-						$desc = strtr(html_entity_decode($row['description']),$trans);
+						$desc = strtr(html_entity_decode($row['laikas']),$trans);
 						$desc=str_replace(array("<li>","</li>"), array("",", "), $desc);
 					?>
 					<tr>
 						<th class="text-center"><?php echo $i++ ?></th>
-						<td><b><?php echo ucwords($row['name']) ?></b></td>
+						<td><b><?php echo ucwords($row['vieta']) ?></b></td>
 						<td><b class="truncate"><?php echo strip_tags($desc) ?></b></td>
 						<td class="text-center">
 		                    <div class="btn-group">
